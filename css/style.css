@@ -205,8 +205,17 @@ body {
 			width: 150px;
 		}
 	}
+	@media (max-width: 768px) {
+		/* Styles for screens with a max width of 768px or less */
+	  }
+	  img {
+		max-width: 100%;
+		height: auto;
+	  }
+	  
 	/* CSS */
 .button-53 {
+	
 	z-index: 4;
 	background-color: #3DD1E7;
 	border: 0 solid #E5E7EB;
@@ -230,7 +239,7 @@ body {
 	transform: rotate(-2deg);
 	user-select: none;
 	margin-left: 40%;
-	margin-top: 10%;
+	
 	-webkit-user-select: none;
 	touch-action: manipulation;
   }
