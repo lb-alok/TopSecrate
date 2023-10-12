@@ -375,3 +375,9 @@ document.addEventListener('mouseup', handleMouseUp)
 document.addEventListener('touchstart', handleMouseDown)
 document.addEventListener('touchmove', handleMouseMove)
 document.addEventListener('touchend', handleMouseUp)
+
+// Prevent scrolling on the entire page
+document.body.style.overflow = "hidden";
+
+// Re-enable scrolling (if needed) using:
+// document.body.style.overflow = "auto";
